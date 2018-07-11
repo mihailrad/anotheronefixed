@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Pretty Fixer Test</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="dist/anotheronejs.js"></script>
+	
+</head>
+<body>
+	<div class="wrap">
+		<header class="fix-this-block__header">
+			<div class="section-title">HEADER</div>
+		</header>
+		<main class="fix-this-block__parent">
+			<div class="section-title">CONTENT</div>
+			
+			<!-- AnotherOneFixer block BEGIN -->
+				<div class="another-one-block fix-this-block">
+					<div class="another-one-block__content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolorem quas, esse necessitatibus accusamus ducimus, placeat blanditiis tempore impedit vel doloribus, quibusdam quam! Provident eum, nulla. Doloremque, nobis quidem praesentium.
+					</div>
+				</div>
+			<!-- AnotherOneFixer block END -->
+
+		</main>
+		<footer class="fix-this-block__footer">
+			<div class="section-title">FOOTER</div>
+		</footer>
+	</div>
+
+	<script>
+
+		$(document).ready(function() {
+			$(".fix-this-block").anotherOneFixed();
+		});
+		
+	</script>
+</body>
+</html>
+<!-- 
+	js for the js god!
+-->

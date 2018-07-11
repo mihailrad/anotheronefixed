@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrap {
+	max-width: 1200px;
+	background-color: #999;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-title {
+	position: absolute;
+	opacity: 0.5;
+	color: #000;
+	font-size: 40px;
+}
+
+.another-one-block {
+	float: right;
+	height: 400px;
+	background: rgba(55, 55, 55, 0.5);
+	width: 100%;
+	max-width: 250px;
+}
+
+header {
+	background: #a2ffa9;
+	position: relative;
+	height: 140px;
+}
+
+main {
+	background: #a2bfff;
+	position: relative;
+	height: 1500px;
+}
+
+footer {
+	background: #ffa2a2;
+	position: relative;
+	height: 700px;
+}
